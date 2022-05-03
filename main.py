@@ -1,8 +1,11 @@
 import telebot
 import requests
+import os
 from telebot import types
 from geopy.geocoders import Nominatim
-bot = telebot.TeleBot("5275732475:AAHJVDlHwaEs5hixvSxgcD5EOlwTKILxKvI")
+
+api = os.getenv('api_token')
+bot = telebot.TeleBot(api)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
