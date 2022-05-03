@@ -49,4 +49,9 @@ $ newport_ri = (41.49008, -71.312796)
 $ cleveland_oh = (41.499498, -81.695391)
 $ print(great_circle(newport_ri, cleveland_oh).miles)
 536.997990696
-``
+```
+## Used Api
+<b style = "color:coral;">OpenWeather</b>
+Weather forecasts, nowcasts and history in fast and elegant way
+
+
