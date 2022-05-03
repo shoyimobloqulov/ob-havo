@@ -1,2 +1,2 @@
-# ob-havo
-Ob-havo Bot(PyTelegramBotApi - Location)
+# Ob-havo Bot
+PyTelegramBotApi - Location)
