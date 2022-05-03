@@ -29,7 +29,7 @@ geopy is a Python client for several popular geocoding web services.
 ```
 $ pip install geopy
 ```
-##Geocoding
+###Geocoding
 ```
 >>> from geopy.geocoders import Nominatim
 >>> geolocator = Nominatim(user_agent="specify_your_app_name_here")
@@ -42,7 +42,7 @@ Flatiron Building, 175, 5th Avenue, Flatiron, New York, NYC, New York, ...
 {'place_id': '9167009604', 'type': 'attraction', ...}
 
 ```
-##Using great-circle distance, also taking pair of (lat, lon) tuples:
+###Using great-circle distance, also taking pair of (lat, lon) tuples:
 ```
 >>> from geopy.distance import great_circle
 >>> newport_ri = (41.49008, -71.312796)
