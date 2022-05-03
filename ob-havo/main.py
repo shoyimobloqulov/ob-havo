@@ -2,7 +2,7 @@ import telebot
 import requests
 from telebot import types
 from geopy.geocoders import Nominatim
-bot = telebot.TeleBot("5275732475:AAHJVDlHwaEs5hixvSxgcD5EOlwTKILxKvI")
+bot = telebot.TeleBot("#")
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
