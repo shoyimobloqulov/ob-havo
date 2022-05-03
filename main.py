@@ -3,6 +3,7 @@ import requests
 import os
 from telebot import types
 from geopy.geocoders import Nominatim
+from check import *
 
 api = os.getenv('api_token')
 bot = telebot.TeleBot(api)
@@ -21,11 +22,10 @@ def location(message):
 	try:
 		lt = message.location.latitude
 		ln = message.location.longitude
-
-		api_key = "711d46548dd90cf800df2d92430740b7"
+		
 		lat = str(lt) 
 		lon = str(ln)
-		r = requests.get(f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api_key}").json()
+		r = requests.get(f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api_id}").json()
 
 		name = r["name"]
 		lat = r["coord"]["lat"]
