@@ -5,6 +5,8 @@ from telebot import types
 from geopy.geocoders import Nominatim
 
 api = os.getenv('api_token')
+api_id = os.getenv('api')
+
 bot = telebot.TeleBot(api)
 
 @bot.message_handler(commands=['start', 'help'])
