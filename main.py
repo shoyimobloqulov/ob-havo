@@ -5,7 +5,7 @@ from telebot import types
 from geopy.geocoders import Nominatim
 
 api = os.getenv('api_token')
-api_id = os.getenv('api')
+api_id = "711d46548dd90cf800df2d92430740b7"
 
 bot = telebot.TeleBot(api)
 
