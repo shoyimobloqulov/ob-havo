@@ -1,0 +1,3 @@
+pytelegrambotapi = "*"
+geopy = "*"
+python_version = "3.10"
