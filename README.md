@@ -1,4 +1,4 @@
-# Ob-havo Bot
+# Ob-havo Bot(@obihavouzbbot)
 PyTelegramBotApi - Location)
 ![Ob-havo](https://user-images.githubusercontent.com/92427513/166525954-31d46fd8-564e-487c-b0f8-1429329a3ff9.png)
 
