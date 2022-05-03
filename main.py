@@ -3,7 +3,6 @@ import requests
 import os
 from telebot import types
 from geopy.geocoders import Nominatim
-from check import *
 
 api = os.getenv('api_token')
 bot = telebot.TeleBot(api)
