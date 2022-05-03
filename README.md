@@ -22,14 +22,14 @@ or:
 ```
 $ pip install git+https://github.com/eternnoir/pyTelegramBotAPI.git
 ```
-### Required libraries
+## Required libraries
 
 geopy is a Python client for several popular geocoding web services.
 
 ```
 $ pip install geopy
 ```
-###Geocoding
+## Geocoding
 ```
 $ from geopy.geocoders import Nominatim
 $ geolocator = Nominatim(user_agent="specify_your_app_name_here")
@@ -42,7 +42,7 @@ $ print(location.raw)
 {'place_id': '9167009604', 'type': 'attraction', ...}
 
 ```
-###Using great-circle distance, also taking pair of (lat, lon) tuples:
+## Using great-circle distance, also taking pair of (lat, lon) tuples:
 ```
 $ from geopy.distance import great_circle
 $ newport_ri = (41.49008, -71.312796)
@@ -50,7 +50,3 @@ $ cleveland_oh = (41.499498, -81.695391)
 $ print(great_circle(newport_ri, cleveland_oh).miles)
 536.997990696
 ``
-
-
-
-
