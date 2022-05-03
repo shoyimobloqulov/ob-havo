@@ -1,2 +1,14 @@
-pytelegrambotapi = "*"
-geopy = "*"
+charset-normalizer==2.0.12
+distlib==0.3.4
+filelock==3.6.0
+geographiclib==1.52
+geopy==2.2.0
+idna==3.3
+pipenv==2022.4.30
+platformdirs==2.5.2
+pyTelegramBotAPI==4.5.0
+requests==2.27.1
+six==1.16.0
+urllib3==1.26.9
+virtualenv==20.14.1
+virtualenv-clone==0.5.7
