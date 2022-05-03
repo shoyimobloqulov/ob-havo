@@ -53,5 +53,5 @@ $ print(great_circle(newport_ri, cleveland_oh).miles)
 ## Used Api
 <b style = "color:coral;">OpenWeather</b>
 Weather forecasts, nowcasts and history in fast and elegant way
-![image](https://user-images.githubusercontent.com/92427513/166545361-572d7aa3-6ff9-4fde-8bca-19ee9a10835b.png)
+![image](https://user-images.githubusercontent.com/92427513/166545361-572d7aa3-6ff9-4fde-8bca-19ee9a10835b.png)<br>
 Information on use: https://openweathermap.org/api
